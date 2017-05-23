@@ -6,12 +6,23 @@
     <script src="lib/jquery.js"></script>
     <script src="src/dancer.js"></script>
     <script src="src/blinkyDancer.js"></script>
+    <script src="src/fadingDancer.js"></script>
+    <script src="src/jumpingDancer.js"></script>
   </head>
   <body>
+    <audio controls autoplay>
+      <source src="snowman.mp3" type="mp3">
+    </audio>
     <div class="topbar">
       <span class="title">object dance party</span>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>    
-      <a href="#" class="lineUpButton" data-dancer-line-up="lineUpDancers">line up your dancers</a>        
+      <a href="#" class="addOlaf" data-dancer-maker-function-name="makeBlinkyDancer">Add Olaf</a>  
+      <a href='#' class="addElsa"
+      data-dancer-maker-function-name="makeFadingDancer">Add Elsa</a>
+      <a href='#' class="addAnna"
+      data-dancer-maker-function-name="makeJumpingDancer">Add Anna</a>
+      <a href="#" class="lineUpButton">Line Up</a> 
+      <a href="#" class="shakeEmUpButton">Shake Em Up</a> 
+       
     </div>
     <script src="src/init.js"></script>
   </body>

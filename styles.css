@@ -2,15 +2,16 @@ body, html{
   height:100%;
 }
 body{
-  background-image: url("");
+  background-image: url("dancefloor.jpg");
   margin: 0px;
-  background-color:#444;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton, .lineUpButton{
+.title, .addAnna, .shakeEmUpButton, .addElsa, .addOlaf, .lineUpButton{
   padding:5px 12px;
   float:right;
 }
@@ -22,7 +23,29 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
   position:absolute;
+}
+
+.elsa{
+  width: 100px;
+  height: 126px;
+  background-image: url('elsa.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.olaf{
+  width: 80px;
+  height: 105px;
+  background-image: url('olaf.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.anna{
+  width: 80px;
+  height: 120px;
+  background-image: url('anna.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
