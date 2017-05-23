@@ -10,5 +10,5 @@ makeFadingDancer.prototype = Object.create(makeDancer.prototype);
 makeFadingDancer.prototype.constructor = makeFadingDancer;
 makeFadingDancer.prototype.step = function () {
   this.oldStep();
-  this.$node.fadeToggle();
+  this.$node.fadeToggle('slow');
 };

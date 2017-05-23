@@ -78,6 +78,11 @@ $(document).ready(function() {
       this.style.top = randHeight + 'px';
     });
   });
+
+  $('body').on('mouseover', 'span.elsa', function(event) {
+    $(this).animate({'top': '-=250'}, 50);
+    $(this).animate({'top': '+=250'}, 50);
+  });
 });
     /* This function sets up the click handlers for the create-dancer
      * buttons on dancefloor.html. You should only need to make one small change to it.
