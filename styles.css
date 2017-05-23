@@ -2,7 +2,7 @@ body, html{
   height:100%;
 }
 body{
-  background-image: url("dancefloor.jpg");
+  background-image: url("media/dancefloor.jpg");
   margin: 0px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,10 +11,21 @@ body{
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addAnna, .shakeEmUpButton, .addElsa, .addOlaf, .lineUpButton{
+.addDancerButton {
   padding:5px 12px;
   float:right;
 }
+
+.title {
+  padding:5px 12px;
+  float:right;
+}
+
+.lineUpButton, .triForm, .shakeEmUpButton {
+  padding:5px 12px;
+  float:left;
+}
+
 .topbar{
   height:32px;
   background-color: #555;
@@ -29,7 +40,7 @@ body, a:link, a:visited, a:active{
 .elsa{
   width: 100px;
   height: 126px;
-  background-image: url('elsa.png');
+  background-image: url('media/elsa.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -37,7 +48,7 @@ body, a:link, a:visited, a:active{
 .olaf{
   width: 80px;
   height: 105px;
-  background-image: url('olaf.png');
+  background-image: url('media/olaf.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -45,7 +56,7 @@ body, a:link, a:visited, a:active{
 .anna{
   width: 80px;
   height: 120px;
-  background-image: url('anna.png');
+  background-image: url('media/anna.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
